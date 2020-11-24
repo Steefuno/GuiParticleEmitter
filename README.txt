@@ -3,6 +3,8 @@
 An implementation of a ParticleEmitter for Guis. The object may emit particles on a method call
 or may be set enabled to emit particles given a rate.
 
+An example usage of the class is at https://www.roblox.com/games/2443851225/GuiParticleEmitter-Test
+The ancestry of the scripts is adjusted ingame because Folders are unnecessary and scripts can be descendants of other scripts.
 
 
 Subclasses:
