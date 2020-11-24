@@ -37,60 +37,60 @@ Example usage:
 
 
 Public Property Summaries:
-  Property			Type and Description
+  Property			  Type and Description
 
   Acceleration		Vector2
-            The change in X and Y speed per second
+                  The change in X and Y speed per second
 
   AnchorPoint			Vector2
-            The AnchorPoint of the Particle ImageLabels
+                  The AnchorPoint of the Particle ImageLabels
 
-  Color				Color3
-            The overlay Color of the Particle ImageLabels
+  Color				    Color3
+                  The overlay Color of the Particle ImageLabels
 
-  FrontDirection		Number
-            The emit angle
+  FrontDirection	Number
+                  The emit angle
 
-  IsEnabled			Boolean - READONLY
-            True if the LoopEmitter is enabled
+  IsEnabled		  	Boolean - READONLY
+                  True if the LoopEmitter is enabled
 
-  LifeTime			NumberRange
-            The minimum and maximum time a particle may exist before being removed
+  LifeTime		  	NumberRange
+                  The minimum and maximum time a particle may exist before being removed
 
-  Parent				Instance
-            The parent of the Particle ImageLabels
+  Parent			  	Instance
+                  The parent of the Particle ImageLabels
 
-  Position			UDim2
-            The center of the emissions
+  Position		  	UDim2
+                  The center of the emissions
 
-  Rate				Number
-            The number of particles to emit per second
+  Rate			    	Number
+                  The number of particles to emit per second
 
-  RotSpeed			Number
-            The speed the angle of the Particle ImageLabels are changed per second
+  RotSpeed	  		Number
+                  The speed the angle of the Particle ImageLabels are changed per second
 
-  Size				UDim2
-            The size of the Particle ImageLabels
+  Size				    UDim2
+                  The size of the Particle ImageLabels
 
-  SizeConstraint		Enum.SizeConstraint
-            This property works in conjunction with the Size property to determine the screen size of the Particle ImageLabel
+  SizeConstraint	Enum.SizeConstraint
+                  This property works in conjunction with the Size property to determine the screen size of the Particle ImageLabel
 
-  Speed				NumberRange
-            The minimum and maximum speed in pixels a Particle ImageLabel may move
+  Speed			    	NumberRange
+                  The minimum and maximum speed in pixels a Particle ImageLabel may move
 
   SpreadAngle			Number
-            The amplitude of the range the angle of emission may change
-            e.g. SpreadAngle=45 and Angle=30, the emission will be between -15 to 75 degrees
+                  The amplitude of the range the angle of emission may change
+                  e.g. SpreadAngle=45 and Angle=30, the emission will be between -15 to 75 degrees
 
-  Texture				String
-            The assetid of the Image for the Particle ImageLabel
-            e.g. "rbxasset://textures/particles/sparkles_main.dds"
+  Texture			  	String
+                  The assetid of the Image for the Particle ImageLabel
+                  e.g. "rbxasset://textures/particles/sparkles_main.dds"
 
   Transparency		NumberSequence - TODO
-            The minimum and maximum transparency of the Particle ImageLabel
+                  The minimum and maximum transparency of the Particle ImageLabel
 
-  ZIndex				Integer
-            The ZIndex of the Particle ImageLabel
+  ZIndex			  	Integer
+                  The ZIndex of the Particle ImageLabel
 
 
 
@@ -101,13 +101,13 @@ Constructors and Summaries:
 
 
 Public Method Summaries:
-  Method				Description and Parameters and Return Value
+  Method		 	Description and Parameters and Return Value
 
-  SetEnabled			Enables or Disables the LoopEmitter
-            @Param	enable	Boolean	True to enable the LoopEmitter
+  SetEnabled	Enables or Disables the LoopEmitter
+              @Param	enable	Boolean	True to enable the LoopEmitter
 
-  Emit				Emits N particles
-            @Param	count	Integer	The number of particles to emit
+  Emit		 		Emits N particles
+              @Param	count	  Integer	The number of particles to emit
 
   Clear				Removes all existing particles from this GuiParticleEmitter
     
